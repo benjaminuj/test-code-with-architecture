@@ -48,7 +48,7 @@ public class UserServiceTest {
     }
 
     @Test
-    void getById은_ACTIVE_상태의_유저를_찾아올_수_있다() {
+    void getById는_ACTIVE_상태의_유저를_찾아올_수_있다() {
         //given
         //when
         UserEntity result = userService.getById(1);
@@ -58,7 +58,7 @@ public class UserServiceTest {
     }
 
     @Test
-    void getByIdl은_PENDING_상태의_유저는_찾아올_수_없다() {
+    void getById는_PENDING_상태의_유저는_찾아올_수_없다() {
         //given
         //when
         //then

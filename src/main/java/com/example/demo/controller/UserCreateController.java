@@ -29,5 +29,4 @@ public class UserCreateController {
             .status(HttpStatus.CREATED)
             .body(userController.toResponse(userEntity));
     }
-
 }
